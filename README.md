@@ -83,6 +83,6 @@ To ensure a stable and bug-free system, the project follows a tiered testing app
 ## API Documentation (Swagger)
 Once the server is running, you can access the interactive documentation and test the endpoints here:
 
-🔗 **Swagger UI:** [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
+**Swagger UI:** [http://localhost:8080/swagger-ui/index.html](http://localhost:8080/swagger-ui/index.html)
 
 Use this interface to visualize REST endpoints, check request/response schemas, and execute live API calls against the local database.
