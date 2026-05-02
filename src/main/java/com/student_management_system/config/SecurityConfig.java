@@ -1,4 +1,4 @@
-package com.student_management_system.security;
+package com.student_management_system.config;
 
 
 
@@ -15,6 +15,8 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
+import com.student_management_system.security.CustomUserDetailsService;
+
 import lombok.RequiredArgsConstructor;
 
 
@@ -23,7 +25,6 @@ import lombok.RequiredArgsConstructor;
 @EnableWebSecurity
 @EnableMethodSecurity
 @RequiredArgsConstructor
-
 public class SecurityConfig {
     private final CustomUserDetailsService customUserDetailsService;
     @Bean
