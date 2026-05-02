@@ -8,7 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 
 import com.student_management_system.dto.LoginRequest;
 import com.student_management_system.security.JwtService;
-
 import lombok.RequiredArgsConstructor;
 
 @RestController
